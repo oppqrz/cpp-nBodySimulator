@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "runSim.C": "cpp",
+        "Sim.C": "cpp"
+    }
+}
