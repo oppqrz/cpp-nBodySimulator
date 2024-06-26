@@ -9,7 +9,7 @@ class Body
     double Mass;  //in Kg
     double PosX;
     double PosY;
-    double GConst = 6.6743E-11;
+    double const GConst = 6.6743E-11;
 
     double VelX;
     double VelY;
