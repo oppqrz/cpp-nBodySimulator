@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <cmath>
+#define GConst 6.6743E-11
 
 class Body
 {
@@ -9,7 +10,6 @@ class Body
     double Mass;  //in Kg
     double PosX;
     double PosY;
-    double const GConst = 6.6743E-11;
 
     double VelX;
     double VelY;
