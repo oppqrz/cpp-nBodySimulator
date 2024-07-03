@@ -116,7 +116,7 @@ int main()
                 AllBodies[i].UpdatePosition();
             }
 
-        if(nT % (60*60*24) == 0)
+            if(nT % CheckInTime == 0)
             {
                 std::cout << "Time Passed :  " << TimeStep*nT / CheckInTime << " Days " << std::endl;
             }
